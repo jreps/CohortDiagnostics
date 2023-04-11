@@ -106,7 +106,7 @@ CREATE TABLE @results_schema.@annotation_attributes (
 --HINT DISTRIBUTE ON RANDOM
 CREATE TABLE @results_schema.@cohort (
 			cohort_id BIGINT NOT NULL,
-			cohort_name VARCHAR(255) NOT NULL,
+			cohort_name VARCHAR NOT NULL,
 			metadata VARCHAR,
 			sql VARCHAR NOT NULL,
 			json VARCHAR NOT NULL,
